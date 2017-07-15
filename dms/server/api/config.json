@@ -1,0 +1,17 @@
+{
+  "ApiKey": "Ckt4&*HDXXx9L-sSGnpkyYFJneR=r7?ibHKf*cK/(HgTPYPE",
+  "ApiKeySandbox": "Ckt4&*HDXXx9L-sSGnpkyYFJneR=r7?ibHKf*cK/(HgTPYPE",
+  "Sandbox": true,
+  "Endpoint": "https://partner.http.net/api/",
+  "EndpointSandbox": "https://demo.routing.net/api/",
+  "ApiVersion": "v1",
+  "ApiFormat": "json",
+  "clientTransactionsId": "uuid",
+  "connection": {
+    "followRedirect": false,
+    "followAllRedirects": false,
+    "encoding": "utf8",
+    "gzip": true,
+    "strictSSL": true
+  }
+}

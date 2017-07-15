@@ -1,0 +1,28 @@
+{
+  "name": "http-net-client",
+  "version": "1.0.0",
+  "description": "Node.js Client for http.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http.net"
+  ],
+  "author": "Max Steinweber",
+  "license": "ISC",
+  "private": true,
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "debug": "^2.6.3",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3",
+    "schema-inspector": "^1.6.8",
+    "uuid": "^3.0.1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc"]
+    },
+    "source": {
+        "include": ["./src/"],
+        "includePattern": ".+\\.js$",
+        "excludePattern": "(docs)"
+    },
+    "plugins": [],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": true,
+        "systemName": "hett.net REST API Client",
+        "footer": "Created by Max Steinweber",
+        "copyright": "2017",
+        "navType": "vertical",
+        "theme": "spacelab",
+        "linenums": true,
+        "collapseSymbols": true,
+        "inverseNav": false
+    },
+    "opts": {
+
+        "encoding": "utf8",
+        "destination": "docs/js",
+        "recurse": true,
+        "private": true
+    }
+}
